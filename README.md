@@ -36,12 +36,18 @@ The application components work together as follows:
 
 ### 1. Provisioning the EC2 Instance
 
+<img width="553" height="444" alt="image" src="https://github.com/user-attachments/assets/a53c079b-6c03-48d1-a4d0-546ebe9d0810" />
+
+
 - Launched an EC2 instance using Ubuntu Server 24.04 LTS.
 - Selected the t3.micro instance type.
 - Created an SSH key pair for secure server access.
 - Connected to the instance using SSH from Git Bash.
 
 ### 2. Installing and Configuring Nginx
+
+<img width="553" height="450" alt="image" src="https://github.com/user-attachments/assets/666be861-842e-4c41-a6a2-2551e9b792e5" />
+
 
 - Updated the Ubuntu package index.
 - Installed Nginx and verified that the service was running.
@@ -58,6 +64,9 @@ The application components work together as follows:
 
 ### 3. Installing and Securing MySQL
 
+<img width="609" height="362" alt="image" src="https://github.com/user-attachments/assets/ab908735-7595-438d-82da-cf1f72d3ba02" />
+
+
 - Installed the MySQL database server.
 - Accessed the MySQL command-line interface.
 - Configured database authentication and password validation.
@@ -66,6 +75,9 @@ The application components work together as follows:
 - Granted the user privileges on the project database.
 
 ### 4. Installing PHP and PHP-FPM
+
+<img width="554" height="315" alt="image" src="https://github.com/user-attachments/assets/75cdf622-8669-423d-af0d-37a1914d2131" />
+
 
 Installed PHP-FPM and the MySQL integration package:
 
@@ -79,6 +91,11 @@ sudo apt install php-fpm php-mysql
 - Removed the PHP information file after testing.
 
 ### 5. Database Integration
+
+<img width="491" height="192" alt="image" src="https://github.com/user-attachments/assets/b8221ded-07e0-45bd-9c3c-31908461f20e" />
+
+<img width="257" height="270" alt="image" src="https://github.com/user-attachments/assets/3d220e41-6bb5-4f8e-b0ee-5f2180825495" />
+
 
 - Created a `todo_list` table in `example_database`.
 - Inserted sample records into the table.
